@@ -106,7 +106,7 @@ function Auth() {
                       className="w-full px-4 py-2 border border-gray-300 rounded outline-none placeholder:text-sm placeholder:text-gray-600"
                       placeholder="Enter your password"
                       type={showConfirmPassword ? "text" : "password"}
-                    />{" "}
+                    />
                     <button
                       onClick={() => setShowConfirmPassword(!showConfirmPassword)}
                       className="absolute top-3 right-3 text-gray-600 hover:text-gray-700 cursor-pointer"
