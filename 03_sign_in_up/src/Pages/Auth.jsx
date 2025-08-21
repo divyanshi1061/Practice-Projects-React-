@@ -91,7 +91,7 @@ function Auth() {
                       onClick={() => setShowPassword(!showPassword)}
                       className="absolute top-3 right-3 text-gray-600 hover:text-gray-700 cursor-pointer"
                     >
-                      {showPassword ? <FaEye /> : <FaEyeSlash />}
+                      {showPassword ? <FaEyeSlash /> :<FaEye /> }
                     </button>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ function Auth() {
                       onClick={() => setShowConfirmPassword(!showConfirmPassword)}
                       className="absolute top-3 right-3 text-gray-600 hover:text-gray-700 cursor-pointer"
                     >
-                      {showConfirmPassword ? <FaEye /> : <FaEyeSlash />}
+                      {showConfirmPassword ? <FaEyeSlash /> : <FaEye />}
                     </button>
                   </div>
                 </div>
